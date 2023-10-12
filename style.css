@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: rgb(186, 146, 224);
+  position: fixed;
+  width: 100vw;
+  z-index: 3;
+}
+.container {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.col1 {
+  width: 300px;
+  height: 331px;
+}
+.col2 {
+  width: 300px;
+  height: 331px;
+  margin-left: 20px;display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col3 {
+  width: 300px;
+  height: 331px;
+  margin-left: 20px;
+  
+}
+.weather-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container-heading {
+  margin-top: 60px;
+}
+#h3{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+} 
